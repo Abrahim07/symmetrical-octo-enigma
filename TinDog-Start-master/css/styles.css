@@ -1,0 +1,176 @@
+body{
+  font-family: 'Montserrat-light';
+}
+
+#title{
+  background-color: #ff4c68
+
+}
+
+.head1{
+  font-family: 'Alfa Slab One', cursive;
+  line-height: 1.5;
+  font-size:3.5rem;
+  color:#fff;
+}
+.price{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3rem;
+  line-height: 2.5rem;
+}
+
+
+h3{
+  font-family: 'Montserrat-bold';
+}
+.work{
+  display: inline-block;
+}
+p{
+  color: #8f8f8f;
+}
+.Container-fluid{
+  padding-top: 3%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 7%;
+
+
+}
+
+/* navigation Bar*/
+.navbar{
+  padding:0 0 4.5rem !important;
+}
+
+
+
+.titlee
+{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 2.5rem !important;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+
+}
+
+/*download button*/
+.download{
+  margin:5% 3% 5% 0%;
+}
+
+.title-image{
+  width: 60%;
+  transform:rotate(25deg);
+  position: absolute;
+  right: 20%;
+
+
+
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+.feature-box{
+  text-align: center ;
+
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/*testimonial*/
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+.logo{
+  width: 15%;
+  margin:20px 20px 50px !important;
+}
+.carousel-item{
+  padding: 7% 15%
+}
+h2{
+  font-family: 'Alfa Slab One', cursive;
+}
+/*pricing*/
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+}
+.pricing-column{
+  padding: 3% 5%;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+.cta-heading{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3.5rem;
+
+}
+
+#footer{
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+
+
+
+
+
+@media (max-width:1026px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+}
